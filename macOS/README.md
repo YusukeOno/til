@@ -12,5 +12,5 @@ As with Safari, the first menu you'll get will be YouTube's right-click menu. So
 ## How to merge files horizontally
 
 ```
-paste -d ' ' <(find ~/Develop/Git/til -type f -name "*.md") <(find ~/Develop/Git/til -type f -name "*.md")  | sed 's/^/diff /'
+$ paste -d ' ' <(find ~/Develop/Git/til -type f -name "*.md") <(find ~/Develop/Git/til -type f -name "*.md")  | sed 's/^/diff /'
 ```

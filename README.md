@@ -6,12 +6,15 @@ Today I Learned
 - [til](#til)
     - [Category](#category)
     - [macOS](#macos)
+    - [study](#study)
     - [tools](#tools)
 
 ---
 ### macOS
 
 - [macOS](macOS/README.md)
+
+### study
 
 ### tools
 

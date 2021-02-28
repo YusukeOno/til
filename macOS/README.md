@@ -1,3 +1,14 @@
+# macOS Tips
+
+- [macOS Tips](#macos-tips)
+  - [How to rename a screenshot file in macOS](#how-to-rename-a-screenshot-file-in-macos)
+  - [How to use Safari's PiP for YouTube](#how-to-use-safaris-pip-for-youtube)
+  - [How to merge files horizontally](#how-to-merge-files-horizontally)
+  - [How to input logo mark the Apple .](#how-to-input-logo-mark-the-apple-)
+  - [How to deal with errors when starting VS Code](#how-to-deal-with-errors-when-starting-vs-code)
+
+---
+
 ## How to rename a screenshot file in macOS
 
 ```

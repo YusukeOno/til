@@ -8,6 +8,7 @@
   - [How to deal with errors when starting VS Code](#how-to-deal-with-errors-when-starting-vs-code)
   - [How to use the sips command](#how-to-use-the-sips-command)
     - [PNG image profile check](#png-image-profile-check)
+  - [How to use the Snap Camera on Microsoft Teams Mac OS client](#how-to-use-the-snap-camera-on-microsoft-teams-mac-os-client)
 
 ---
 
@@ -54,3 +55,18 @@ $ pyenv rehash
 ```
 $ find ~/Desktop -type f -name '*.png' -print0 | xargs -0 sips -g all
 ```
+
+## How to use the Snap Camera on Microsoft Teams Mac OS client
+
+```
+#  (only if you haven't already)
+$ xcode-select --install
+
+$ sudo codesign --remove-signature "/Applications/Microsoft Teams.app"
+$ sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app"
+$ sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (GPU).app"
+$ sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Plugin).app"
+$ sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app"
+```
+
+cf. https://answers.microsoft.com/en-us/msteams/forum/all/microsoft-teams-mac-os-client-is-not-recognizing/d9e863be-d9a4-4d03-a4b8-1b5c7df58828?auth=1&page=13

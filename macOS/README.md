@@ -6,6 +6,8 @@
   - [How to merge files horizontally](#how-to-merge-files-horizontally)
   - [How to input logo mark the Apple .](#how-to-input-logo-mark-the-apple-)
   - [How to deal with errors when starting VS Code](#how-to-deal-with-errors-when-starting-vs-code)
+  - [How to use the sips command](#how-to-use-the-sips-command)
+    - [PNG image profile check](#png-image-profile-check)
 
 ---
 
@@ -43,4 +45,12 @@ $ paste -d ' ' <(find ~/Develop/Git/til -type f -name "*.md") <(find ~/Develop/G
 
 ```
 $ pyenv rehash
+```
+
+## How to use the sips command
+
+### PNG image profile check
+
+```
+$ find ~/Desktop -type f -name '*.png' -print0 | xargs -0 sips -g all
 ```

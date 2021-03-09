@@ -9,6 +9,7 @@
   - [How to use the sips command](#how-to-use-the-sips-command)
     - [PNG image profile check](#png-image-profile-check)
   - [How to use the Snap Camera on Microsoft Teams Mac OS client](#how-to-use-the-snap-camera-on-microsoft-teams-mac-os-client)
+  - [Unzip fail when zip contains cjk char on macOS](#unzip-fail-when-zip-contains-cjk-char-on-macos)
 
 ---
 
@@ -70,3 +71,11 @@ $ sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/F
 ```
 
 cf. https://answers.microsoft.com/en-us/msteams/forum/all/microsoft-teams-mac-os-client-is-not-recognizing/d9e863be-d9a4-4d03-a4b8-1b5c7df58828?auth=1&page=13
+
+## Unzip fail when zip contains cjk char on macOS
+
+```
+$  ditto -V -x -k --sequesterRsrc --rsrc FILENAME.ZIP DESTINATIONDIRECTORY
+```
+
+cf. https://github.com/CocoaPods/CocoaPods/issues/7711#issuecomment-386942543

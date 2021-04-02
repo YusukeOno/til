@@ -11,6 +11,7 @@
   - [How to use the Snap Camera on Microsoft Teams Mac OS client](#how-to-use-the-snap-camera-on-microsoft-teams-mac-os-client)
   - [Unzip fail when zip contains cjk char on macOS](#unzip-fail-when-zip-contains-cjk-char-on-macos)
   - [How to diff over ssh](#how-to-diff-over-ssh)
+  - [How to check the character encoding with the file command](#how-to-check-the-character-encoding-with-the-file-command)
 
 ---
 
@@ -86,4 +87,10 @@ cf. https://github.com/CocoaPods/CocoaPods/issues/7711#issuecomment-386942543
 ```
 $ ssh [.SSH_CONFIG_HOST] 'cat REMOTEFILEPATH' | diff - LOCALFILEPATH
 $ diff <(ssh [.SSH_CONFIG_HOST] 'cat REMOTEFILEPATH') LOCALFILEPATH
+```
+
+## How to check the character encoding with the file command
+
+```
+$ file --mime hoge.php
 ```

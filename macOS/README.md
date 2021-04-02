@@ -10,6 +10,7 @@
     - [PNG image profile check](#png-image-profile-check)
   - [How to use the Snap Camera on Microsoft Teams Mac OS client](#how-to-use-the-snap-camera-on-microsoft-teams-mac-os-client)
   - [Unzip fail when zip contains cjk char on macOS](#unzip-fail-when-zip-contains-cjk-char-on-macos)
+  - [How to diff over ssh](#how-to-diff-over-ssh)
 
 ---
 
@@ -79,3 +80,9 @@ $  ditto -V -x -k --sequesterRsrc --rsrc FILENAME.ZIP DESTINATIONDIRECTORY
 ```
 
 cf. https://github.com/CocoaPods/CocoaPods/issues/7711#issuecomment-386942543
+
+## How to diff over ssh
+
+```
+$ diff <(ssh [.SSH_CONFIG_HOST] 'cat REMOTEFILEPATH') LOCALFILEPATH
+```

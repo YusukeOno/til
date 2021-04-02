@@ -84,5 +84,6 @@ cf. https://github.com/CocoaPods/CocoaPods/issues/7711#issuecomment-386942543
 ## How to diff over ssh
 
 ```
+$ ssh [.SSH_CONFIG_HOST] 'cat REMOTEFILEPATH' | diff - LOCALFILEPATH
 $ diff <(ssh [.SSH_CONFIG_HOST] 'cat REMOTEFILEPATH') LOCALFILEPATH
 ```

@@ -12,6 +12,7 @@
   - [Unzip fail when zip contains cjk char on macOS](#unzip-fail-when-zip-contains-cjk-char-on-macos)
   - [How to diff over ssh](#how-to-diff-over-ssh)
   - [How to check the character encoding with the file command](#how-to-check-the-character-encoding-with-the-file-command)
+  - [How to count the number of columns in a TSV/CSV](#how-to-count-the-number-of-columns-in-a-tsvcsv)
 
 ---
 
@@ -93,4 +94,11 @@ $ diff <(ssh [.SSH_CONFIG_HOST] 'cat REMOTEFILEPATH') LOCALFILEPATH
 
 ```
 $ file --mime hoge.php
+```
+
+## How to count the number of columns in a TSV/CSV
+
+```
+$ cat hoge.txt | awk -F '\t' '{print NF}'
+$ cat hoge.txt | awk -F ','  '{print NF}'
 ```

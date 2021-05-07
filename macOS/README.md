@@ -13,6 +13,7 @@
   - [How to diff over ssh](#how-to-diff-over-ssh)
   - [How to check the character encoding with the file command](#how-to-check-the-character-encoding-with-the-file-command)
   - [How to count the number of columns in a TSV/CSV](#how-to-count-the-number-of-columns-in-a-tsvcsv)
+  - [How to sort the results of the du command](#how-to-sort-the-results-of-the-du-command)
 
 ---
 
@@ -101,4 +102,10 @@ $ file --mime hoge.php
 ```
 $ cat hoge.txt | awk -F '\t' '{print NF}'
 $ cat hoge.txt | awk -F ','  '{print NF}'
+```
+
+## How to sort the results of the du command
+
+```
+$ du --max-depth=1 -h | sort -hr
 ```

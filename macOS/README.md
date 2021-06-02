@@ -14,6 +14,7 @@
   - [How to check the character encoding with the file command](#how-to-check-the-character-encoding-with-the-file-command)
   - [How to count the number of columns in a TSV/CSV](#how-to-count-the-number-of-columns-in-a-tsvcsv)
   - [How to sort the results of the du command](#how-to-sort-the-results-of-the-du-command)
+  - [How to check the expiration date of a SSL server certificate.](#how-to-check-the-expiration-date-of-a-ssl-server-certificate)
 
 ---
 
@@ -108,4 +109,10 @@ $ cat hoge.txt | awk -F ','  '{print NF}'
 
 ```
 $ du --max-depth=1 -h | sort -hr
+```
+
+## How to check the expiration date of a SSL server certificate.
+
+```
+$ openssl s_client -connect example.com:443 | openssl x509 -noout -enddate
 ```

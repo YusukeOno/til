@@ -12,6 +12,7 @@
 
 |  Keybinding  |  When  |  Note |
 | ---- | ---- | ----- |
+|  control+⇧+^  |  New Terminal  | 新しいターミナル |
 |  ⌘+J  |  Focus on the terminal  | ターミナルへフォーカスする |
 
 cf. https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf

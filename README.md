@@ -15,6 +15,7 @@ Today I Learned
 
 - [macOS](macOS/README.md)
 - [Vim](vim/README.md)
+- [VSCode](vscode/README.md)
 
 ### study
 

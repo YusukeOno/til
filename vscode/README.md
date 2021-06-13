@@ -4,6 +4,7 @@
 
 |  Keybinding  |  When  |  Note |
 | ---- | ---- | ----- |
+|  ⌘+J  |  Focus on the terminal  | ターミナルへフォーカスする |
 |  ⌘+P  |  Quick Open, Go to File…  | ファイルを検索して開く |
 
 

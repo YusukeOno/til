@@ -15,6 +15,7 @@
   - [How to count the number of columns in a TSV/CSV](#how-to-count-the-number-of-columns-in-a-tsvcsv)
   - [How to sort the results of the du command](#how-to-sort-the-results-of-the-du-command)
   - [How to check the expiration date of a SSL server certificate.](#how-to-check-the-expiration-date-of-a-ssl-server-certificate)
+  - [How to get a list of files that have been changed between the last released revision and the latest revision in a subversion.](#how-to-get-a-list-of-files-that-have-been-changed-between-the-last-released-revision-and-the-latest-revision-in-a-subversion)
 
 ---
 
@@ -115,4 +116,10 @@ $ du --max-depth=1 -h | sort -hr
 
 ```
 $ openssl s_client -connect example.com:443 | openssl x509 -noout -enddate
+```
+
+## How to get a list of files that have been changed between the last released revision and the latest revision in a subversion.
+
+```
+$ svn diff --summarize --revision [revision_number]:head [path]
 ```

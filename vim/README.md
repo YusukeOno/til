@@ -11,3 +11,6 @@
 * ```ctrl-w k``` - To move my cursor from one window to up.
 * ```ctrl-w l``` - To move my cursor from one window to right.
 
+## Tips
+
+* ```:.,$d``` - Delete from the cursor line to the end of the file.

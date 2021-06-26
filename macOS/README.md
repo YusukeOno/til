@@ -16,6 +16,7 @@
   - [How to sort the results of the du command](#how-to-sort-the-results-of-the-du-command)
   - [How to check the expiration date of a SSL server certificate.](#how-to-check-the-expiration-date-of-a-ssl-server-certificate)
   - [How to get a list of files that have been changed between the last released revision and the latest revision in a subversion.](#how-to-get-a-list-of-files-that-have-been-changed-between-the-last-released-revision-and-the-latest-revision-in-a-subversion)
+- [How to zoom on macOS](#how-to-zoom-on-macos)
 
 ---
 
@@ -122,4 +123,12 @@ $ openssl s_client -connect example.com:443 | openssl x509 -noout -enddate
 
 ```
 $ svn diff --summarize --revision [revision_number]:head [path]
+```
+
+# How to zoom on macOS
+
+```
+option + command + 8
+option + command + ^
+option + command + -
 ```

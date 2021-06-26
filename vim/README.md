@@ -14,3 +14,4 @@
 ## Tips
 
 * ```:.,$d``` - Delete from the cursor line to the end of the file.
+* ```vimdiff file1 file2``` - Take the difference between two text files.

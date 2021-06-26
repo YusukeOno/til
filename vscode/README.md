@@ -7,6 +7,7 @@
 |  Keybinding  |  When  |  Note |
 | ---- | ---- | ----- |
 |  ⌘+P  |  Quick Open, Go to File…  | ファイルを検索して開く |
+|  ⇧+option+F  |  Formatting  | ファイルを整形する |
 
 ### Terminal
 

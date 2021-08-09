@@ -6,6 +6,7 @@
 
 | Keybinding | When                    | Note                   |
 | ---------- | ----------------------- | ---------------------- |
+| ⌘+B        | Toggle Sidebar visibility | サイドバーを表示・非表示する |
 | ⌘+P        | Quick Open, Go to File… | ファイルを検索して開く |
 | ⇧+option+F | Formatting              | ファイルを整形する     |
 

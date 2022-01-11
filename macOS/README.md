@@ -134,6 +134,8 @@ option + command + ^
 option + command + -
 ```
 
+cf. https://support.apple.com/ja-jp/HT210978
+
 # How to check the speed of your Internet connection.
 
 ```
